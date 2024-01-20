@@ -13,5 +13,16 @@ function addTask(){
         span.innerHTML="\u00d7";
         li.appendChild(span);
     }
-    inputBox.value='';
+    inputBox.value="";
+    saveData();
+};
+
+function saveData(){
+    localStorage.setItem("data",listConatiner.innerHTML);
 }
+function showTask(){
+    listConatiner.innerHTML=localStorage.getItem("data");
+}
+showTask();
+
+
