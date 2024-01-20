@@ -1,0 +1,40 @@
+body{
+    background: rgb(165, 148, 151);
+}
+
+.container{
+   
+    width: 455px;
+  padding: 28px;
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 49px;
+    background-color: rgb(84, 156, 132);
+}
+
+.inputs{
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 31px;
+}
+#int{
+    font-size: 19px;
+    border: 2px solid rgb(28, 91, 90);
+    flex: 6;
+    padding: 8px;
+}
+#button{
+    width: 60px;
+    height: 42px;
+    
+    
+}
+#add{
+    
+    background-color: black;
+    color: white;
+   
+    font-size: 28px;
+  border-radius: 4px;
+  
+}
